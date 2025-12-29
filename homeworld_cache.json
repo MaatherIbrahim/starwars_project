@@ -1,0 +1,211 @@
+{
+  "https://swapi.info/api/planets/31": {
+    "homeworld_name": "Mon Cala",
+    "rotation_period": "21",
+    "orbital_period": "398",
+    "diameter": "11030",
+    "climate": "temperate",
+    "gravity": "1",
+    "terrain": "oceans, reefs, islands",
+    "surface_water": "100",
+    "population": "27000000000"
+  },
+  "https://swapi.info/api/planets/1": {
+    "homeworld_name": "Tatooine",
+    "rotation_period": "23",
+    "orbital_period": "304",
+    "diameter": "10465",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "terrain": "desert",
+    "surface_water": "1",
+    "population": "200000"
+  },
+  "https://swapi.info/api/planets/28": {
+    "homeworld_name": "unknown",
+    "rotation_period": "0",
+    "orbital_period": "0",
+    "diameter": "0",
+    "climate": "unknown",
+    "gravity": "unknown",
+    "terrain": "unknown",
+    "surface_water": "unknown",
+    "population": "unknown"
+  },
+  "https://swapi.info/api/planets/10": {
+    "homeworld_name": "Kamino",
+    "rotation_period": "27",
+    "orbital_period": "463",
+    "diameter": "19720",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "ocean",
+    "surface_water": "100",
+    "population": "1000000000"
+  },
+  "https://swapi.info/api/planets/29": {
+    "homeworld_name": "Trandosha",
+    "rotation_period": "25",
+    "orbital_period": "371",
+    "diameter": "0",
+    "climate": "arid",
+    "gravity": "0.62 standard",
+    "terrain": "mountains, seas, grasslands, deserts",
+    "surface_water": "unknown",
+    "population": "42000000"
+  },
+  "https://swapi.info/api/planets/14": {
+    "homeworld_name": "Kashyyyk",
+    "rotation_period": "26",
+    "orbital_period": "381",
+    "diameter": "12765",
+    "climate": "tropical",
+    "gravity": "1 standard",
+    "terrain": "jungle, forests, lakes, rivers",
+    "surface_water": "60",
+    "population": "45000000"
+  },
+  "https://swapi.info/api/planets/23": {
+    "homeworld_name": "Rodia",
+    "rotation_period": "29",
+    "orbital_period": "305",
+    "diameter": "7549",
+    "climate": "hot",
+    "gravity": "1 standard",
+    "terrain": "jungles, oceans, urban, swamps",
+    "surface_water": "60",
+    "population": "1300000000"
+  },
+  "https://swapi.info/api/planets/22": {
+    "homeworld_name": "Corellia",
+    "rotation_period": "25",
+    "orbital_period": "329",
+    "diameter": "11000",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "plains, urban, hills, forests",
+    "surface_water": "70",
+    "population": "3000000000"
+  },
+  "https://swapi.info/api/planets/24": {
+    "homeworld_name": "Nal Hutta",
+    "rotation_period": "87",
+    "orbital_period": "413",
+    "diameter": "12150",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "urban, oceans, swamps, bogs",
+    "surface_water": "unknown",
+    "population": "7000000000"
+  },
+  "https://swapi.info/api/planets/26": {
+    "homeworld_name": "Bestine IV",
+    "rotation_period": "26",
+    "orbital_period": "680",
+    "diameter": "6400",
+    "climate": "temperate",
+    "gravity": "unknown",
+    "terrain": "rocky islands, oceans",
+    "surface_water": "98",
+    "population": "62000000"
+  },
+  "https://swapi.info/api/planets/30": {
+    "homeworld_name": "Socorro",
+    "rotation_period": "20",
+    "orbital_period": "326",
+    "diameter": "0",
+    "climate": "arid",
+    "gravity": "1 standard",
+    "terrain": "deserts, mountains",
+    "surface_water": "unknown",
+    "population": "300000000"
+  },
+  "https://swapi.info/api/planets/2": {
+    "homeworld_name": "Alderaan",
+    "rotation_period": "24",
+    "orbital_period": "364",
+    "diameter": "12500",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grasslands, mountains",
+    "surface_water": "40",
+    "population": "2000000000"
+  },
+  "https://swapi.info/api/planets/6": {
+    "homeworld_name": "Bespin",
+    "rotation_period": "12",
+    "orbital_period": "5110",
+    "diameter": "118000",
+    "climate": "temperate",
+    "gravity": "1.5 (surface), 1 standard (Cloud City)",
+    "terrain": "gas giant",
+    "surface_water": "0",
+    "population": "6000000"
+  },
+  "https://swapi.info/api/planets/32": {
+    "homeworld_name": "Chandrila",
+    "rotation_period": "20",
+    "orbital_period": "368",
+    "diameter": "13500",
+    "climate": "temperate",
+    "gravity": "1",
+    "terrain": "plains, forests",
+    "surface_water": "40",
+    "population": "1200000000"
+  },
+  "https://swapi.info/api/planets/33": {
+    "homeworld_name": "Sullust",
+    "rotation_period": "20",
+    "orbital_period": "263",
+    "diameter": "12780",
+    "climate": "superheated",
+    "gravity": "1",
+    "terrain": "mountains, volcanoes, rocky deserts",
+    "surface_water": "5",
+    "population": "18500000000"
+  },
+  "https://swapi.info/api/planets/20": {
+    "homeworld_name": "Stewjon",
+    "rotation_period": "unknown",
+    "orbital_period": "unknown",
+    "diameter": "0",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grass",
+    "surface_water": "unknown",
+    "population": "unknown"
+  },
+  "https://swapi.info/api/planets/8": {
+    "homeworld_name": "Naboo",
+    "rotation_period": "26",
+    "orbital_period": "312",
+    "diameter": "12120",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grassy hills, swamps, forests, mountains",
+    "surface_water": "12",
+    "population": "4500000000"
+  },
+  "https://swapi.info/api/planets/7": {
+    "homeworld_name": "Endor",
+    "rotation_period": "18",
+    "orbital_period": "402",
+    "diameter": "4900",
+    "climate": "temperate",
+    "gravity": "0.85 standard",
+    "terrain": "forests, mountains, lakes",
+    "surface_water": "8",
+    "population": "30000000"
+  },
+  "https://swapi.info/api/planets/21": {
+    "homeworld_name": "Eriadu",
+    "rotation_period": "24",
+    "orbital_period": "360",
+    "diameter": "13490",
+    "climate": "polluted",
+    "gravity": "1 standard",
+    "terrain": "cityscape",
+    "surface_water": "unknown",
+    "population": "22000000000"
+  }
+}
