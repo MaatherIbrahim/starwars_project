@@ -13,6 +13,7 @@ from fetch_homeworld import (
 from load_to_db import load_data
 import subprocess
 import sys
+import uvicorn
 LIMIT = 30
 
 OLD_CHAR_FILE = "old_republic_characters.json"
