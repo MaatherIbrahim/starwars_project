@@ -11,7 +11,8 @@ from fetch_homeworld import (
 )
 
 from load_to_db import load_data
-
+import subprocess
+import sys
 LIMIT = 30
 
 OLD_CHAR_FILE = "old_republic_characters.json"
@@ -68,9 +69,22 @@ def start_scheduler():
     print("Scheduler started. ETL will run every 1 minute.")
     scheduler.start()
 
+def run_api():
+    print("Starting FastAPI server...")
+    subprocess.Popen([
+        sys.executable,
+        "-m",
+        "uvicorn",
+        "api:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000"
+    ])
+    
 if __name__ == "__main__":
     start_scheduler()  
-
+    run_api()
 
 
 
