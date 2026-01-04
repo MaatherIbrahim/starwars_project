@@ -3,18 +3,15 @@ from db import engine
 from model import planets, characters
 import pandas as pd
 
+def load_data(final_df: pd.DataFrame):
 
-def load_data(final_df):
     with engine.begin() as conn:
-
-        # Reset tables each run (full refresh strategy)
-        conn.execute(
-            text("TRUNCATE characters, planets RESTART IDENTITY CASCADE;")
-        )
+        conn.execute(text("DELETE FROM characters"))
+        conn.execute(text("DELETE FROM planets"))
 
         planet_map = {}
 
-        # -------- Insert planets --------
+        # Insert planets
         for _, row in final_df.iterrows():
             planet_name = row.get("homeworld_name")
 
@@ -23,22 +20,20 @@ def load_data(final_df):
 
             if planet_name not in planet_map:
                 result = conn.execute(
-                    insert(planets)
-                    .values(
+                    insert(planets).values(
                         name=planet_name,
                         climate=row.get("climate"),
                         terrain=row.get("terrain"),
                         population=row.get("population"),
                     )
-                    .returning(planets.c.id)
                 )
-                planet_map[planet_name] = result.scalar()
+                planet_map[planet_name] = result.lastrowid
 
-        # -------- Insert characters --------
+        # Insert characters
         for _, row in final_df.iterrows():
             conn.execute(
                 insert(characters).values(
-                    name=row.get("name"),           # ✅ FIXED
+                    name=row.get("name"),
                     height=row.get("height"),
                     mass=row.get("mass"),
                     gender=row.get("gender"),

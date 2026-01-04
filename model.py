@@ -6,7 +6,7 @@ metadata = MetaData()
 planets = Table(
     "planets",
     metadata,
-    Column("id", Integer, primary_key=True),
+    Column("id", Integer, primary_key=True, autoincrement=True),
     Column("name", Text, unique=True),
     Column("climate", Text),
     Column("terrain", Text),
@@ -16,7 +16,7 @@ planets = Table(
 characters = Table(
     "characters",
     metadata,
-    Column("id", Integer, primary_key=True),
+    Column("id", Integer, primary_key=True, autoincrement=True),
     Column("name", Text),
     Column("height", Text),
     Column("mass", Text),
