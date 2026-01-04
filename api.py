@@ -10,6 +10,7 @@ from main import (char_info, new_char_info ,
                    HOMEWORLD_CACHE_FILE,fetch_homeworld,
                    FINAL_CSV_FILE,FINAL_JSON_FILE,load_data)
 import pandas as pd
+import uvicorn
 
 app = FastAPI(title="Star Wars Character Registry")
 ## get all names
