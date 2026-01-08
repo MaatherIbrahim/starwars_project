@@ -4,7 +4,7 @@ from db import engine
 from model import characters, planets
 from logger_config import setup_logger
 import time
-from logger_config import setup_logger
+
 from main import (char_info, new_char_info ,
                    LIMIT, load_homeworld_cache,
                    HOMEWORLD_CACHE_FILE,fetch_homeworld,
@@ -119,7 +119,7 @@ def get_character_by_id(character_id: int):
         return dict(result._mapping)
 
 ## get name by planet name
-@app.get("/planets/{planet_name}/characters")
+@app.get("/planets/{planet_name}")
 def get_characters_by_planet(planet_name: str):
     with engine.connect() as conn:
         result = conn.execute(
