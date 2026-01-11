@@ -25,6 +25,12 @@ def load_data(final_df: pd.DataFrame):
                         climate=row.get("climate"),
                         terrain=row.get("terrain"),
                         population=row.get("population"),
+                        rotation_period=row.get("rotation_period"),
+                        orbital_period=row.get("orbital_period"),
+                        diameter=row.get("diameter"),
+                        gravity=row.get("gravity"),
+                        surface_water=row.get("surface_water"),
+                        
                     )
                     .returning(planets.c.id)
                 )

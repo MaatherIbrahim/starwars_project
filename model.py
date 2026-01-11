@@ -8,10 +8,18 @@ planets = Table(
     metadata,
     Column("id", Integer, primary_key=True, autoincrement=True),
     Column("name", Text, unique=True),
+
     Column("climate", Text),
     Column("terrain", Text),
     Column("population", Text),
+
+    Column("rotation_period", Text),
+    Column("orbital_period", Text),
+    Column("diameter", Text),
+    Column("gravity", Text),
+    Column("surface_water", Text),
 )
+
 
 characters = Table(
     "characters",
