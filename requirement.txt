@@ -1,8 +1,12 @@
 apscheduler>=3.11.2
-fastapi>=0.125.0
+dotenv>=0.9.9
+fastapi[standard]>=0.125.0
+httpx>=0.28.1
+numpy>=2.3.5
 pandas>=2.3.3
 psycopg2-binary>=2.9.11
+pytest>=9.0.2
 requests>=2.32.5
 sqlalchemy>=2.0.45
-uvicorn>=0.40.0
-dotenv>=0.9.9
+starlette>=0.50.0
+uvicorn>=0.40
